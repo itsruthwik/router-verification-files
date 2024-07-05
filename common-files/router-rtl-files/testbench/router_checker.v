@@ -28,6 +28,25 @@
 //==============================================================================
 // simple reference model for a single router
 //==============================================================================
+// `include "./../clib/c_functions.v"
+// `include "./../clib/c_constants.v"
+// `include "./../rtr_constants.v"
+// `include "./../vcr_constants.v"
+// `include "parameters.v"
+
+// `include "./../clib/c_binary_op.v"
+// `include "./../clib/c_fifo.v"
+// `include "./../clib/c_dff.v"
+// `include "./../rtr_next_hop_addr.v"
+// `include "./../clib/c_encode.v"
+// `include "./../rtr_routing_logic.v"
+// `include "./../clib/c_mat_mult.v"
+// `include "./../clib/c_interleave.v"
+// `include "./../rtr_channel_input.v"
+// `include "./../clib/c_multi_hot_det.v"
+// `include "./../clib/c_err_rpt.v"
+
+
 
 module router_checker
   (clk, reset, router_address, channel_in_ip, channel_out_op, error);
@@ -41,16 +60,17 @@ module router_checker
 `include "./../clib/c_constants.v"
 `include "./../rtr_constants.v"
 `include "./../vcr_constants.v"
+`include "parameters.v"
 
    
    // total buffer size per port in flits
-   parameter buffer_size = 32;
+//    parameter buffer_size = 32;
    
    // number of message classes (e.g. request, reply)
-   parameter num_message_classes = 2;
+//    parameter num_message_classes = 2;
    
    // number of resource classes (e.g. minimal, adaptive)
-   parameter num_resource_classes = 2;
+//    parameter num_resource_classes = 2;
    
    // width required to select individual resource class
    localparam resource_class_idx_width = clogb(num_resource_classes);
@@ -59,7 +79,7 @@ module router_checker
    localparam num_packet_classes = num_message_classes * num_resource_classes;
    
    // number of VCs per class
-   parameter num_vcs_per_class = 1;
+//    parameter num_vcs_per_class = 1;
    
    // number of VCs
    localparam num_vcs = num_packet_classes * num_vcs_per_class;
@@ -74,13 +94,13 @@ module router_checker
    localparam dim_addr_width = clogb(num_routers_per_dim);
    
    // number of dimensions in network
-   parameter num_dimensions = 2;
+//    parameter num_dimensions = 2;
    
    // width required to select individual router in entire network
    localparam router_addr_width = num_dimensions * dim_addr_width;
    
    // number of nodes per router (a.k.a. concentration factor)
-   parameter num_nodes_per_router = 1;
+//    parameter num_nodes_per_router = 1;
    
    // width required to select individual node at current router
    localparam node_addr_width = clogb(num_nodes_per_router);
@@ -108,15 +128,15 @@ module router_checker
    localparam port_idx_width = clogb(num_ports);
    
    // select packet format
-   parameter packet_format = `PACKET_FORMAT_EXPLICIT_LENGTH;
+//    parameter packet_format = `PACKET_FORMAT_EXPLICIT_LENGTH;
    
    // maximum payload length (in flits)
    // (note: only used if packet_format==`PACKET_FORMAT_EXPLICIT_LENGTH)
-   parameter max_payload_length = 4;
+//    parameter max_payload_length = 4;
    
    // minimum payload length (in flits)
    // (note: only used if packet_format==`PACKET_FORMAT_EXPLICIT_LENGTH)
-   parameter min_payload_length = 1;
+//    parameter min_payload_length = 1;
    
    // number of bits required to represent all possible payload sizes
    localparam payload_length_width
@@ -126,7 +146,7 @@ module router_checker
    localparam flit_ctr_width = clogb(max_payload_length);
    
    // enable link power management
-   parameter enable_link_pm = 1;
+//    parameter enable_link_pm = 1;
    
    // width of link management signals
    localparam link_ctrl_width = enable_link_pm ? 1 : 0;
@@ -142,20 +162,20 @@ module router_checker
        -1;
    
    // width of flit payload data
-   parameter flit_data_width = 64;
+//    parameter flit_data_width = 64;
    
    // channel width
    localparam channel_width
      = link_ctrl_width + flit_ctrl_width + flit_data_width;
    
    // configure error checking logic
-   parameter error_capture_mode = `ERROR_CAPTURE_MODE_NO_HOLD;
+//    parameter error_capture_mode = `ERROR_CAPTURE_MODE_NO_HOLD;
    
    // width required for lookahead routing information
    localparam lar_info_width = port_idx_width + resource_class_idx_width;
    
    // select routing function type
-   parameter routing_type = `ROUTING_TYPE_PHASED_DOR;
+//    parameter routing_type = `ROUTING_TYPE_PHASED_DOR;
    
    // total number of bits required for storing routing information
    localparam dest_info_width
@@ -177,9 +197,9 @@ module router_checker
        -1;
    
    // select order of dimension traversal
-   parameter dim_order = `DIM_ORDER_ASCENDING;
+//    parameter dim_order = `DIM_ORDER_ASCENDING;
    
-   parameter reset_type = `RESET_TYPE_ASYNC;
+//    parameter reset_type = `RESET_TYPE_ASYNC;
    
    input clk;
    input reset;
@@ -654,7 +674,7 @@ module router_checker
 	     end
 	   
 	   integer 			     i;
-	   
+	/*   
 	   always @(posedge clk)
 	   begin
 	      
@@ -671,7 +691,7 @@ module router_checker
 		   
 		end
 	      
-	   end
+	   end  */
 	   
 	   assign rff_errors_ip[ip] = |rff_errors_ivc;
 	   
@@ -786,7 +806,7 @@ module router_checker
 	   
 	   integer 			x;
 	   
-	   always @(posedge clk)
+/*	   always @(posedge clk)
 	     begin
 		if(no_match_error)
 		  begin
@@ -862,7 +882,7 @@ module router_checker
 			      flit_sel_out_ovc,
 			      flit_data_out);
 		  end
-	     end
+	     end */
 	   
 	end
       
