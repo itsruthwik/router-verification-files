@@ -14,7 +14,7 @@
 
 
 // `include "./testbench-copy.v"
-`include "./mesh-testbench.v"
+`include "./mesh-testbench-gfpga.v"
 
 `include "/home/rsunketa/OpenFPGA/test_runs/router-rtl-files/testbench1/router_mesh1.v"
 `include "./../arouter_wrap.v"

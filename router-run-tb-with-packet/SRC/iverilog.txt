@@ -1,1 +1,6 @@
- iverilog -o compiled_router_mesh ./SRC/router_mesh_include_netlists.v -s router_mesh_top_formal_verification_random_tb_with_packet -I ./SRC -v -y ./common-files/router-rtl-files/ -y ./common-files/router-rtl-files/clib/ -y ./common-files/router-rtl-files/testbench -g relative-include -v
+iverilog -o compiled_router_mesh ./SRC/router_mesh_include_netlists.v -s router_mesh_top_formal_verification_random_tb_with_packet -y ./common-files/router-rtl-files/ -y ./common-files router-rtl-files/clib/ -y ./common-files/router-rtl-files/testbench -g relative-include -v -I ./SRC
+
+
+
+
+iverilog -o compiled_router_mesh012  ./SRC/router_mesh_include_netlists.v -s testbench  -y ./../common-files/router-rtl-files/ -y ./../common-files/router-rtl-files/clib/ -y ./../common-files/router-rtl-files/testbench -g relative-include -v -I ./SRC

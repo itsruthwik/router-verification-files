@@ -68,5 +68,4 @@ module router_wrap(
       .flow_ctrl_in_op({flow_ctrl_in_op_0, flow_ctrl_in_op_1, flow_ctrl_in_op_2, flow_ctrl_in_op_3, flow_ctrl_in_op_4 }),
       .error(error));
 
-
 endmodule
