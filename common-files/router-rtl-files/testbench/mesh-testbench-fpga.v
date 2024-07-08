@@ -9,7 +9,7 @@ module testbench
 `include "./../clib/c_constants.v"
 `include "./../rtr_constants.v"
 `include "./../vcr_constants.v"
-`include "parameters.v"
+`include "./../parameters.v"
    
    parameter Tclk = 2;
    parameter initial_seed = 0;

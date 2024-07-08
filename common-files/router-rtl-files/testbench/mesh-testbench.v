@@ -146,7 +146,7 @@ module testbench
       .injection_flow_ctrl(injection_flow_ctrl) ,
       .ejection_channels(ejection_channels) ,
       .ejection_flow_ctrl(ejection_flow_ctrl) ,
-      .rtr_error(rtr_error) ,
+      .rtr_error(rtr_error) 
       // .rchk_error(rchk_error)
    );
 /*

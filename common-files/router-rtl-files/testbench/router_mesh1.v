@@ -85,6 +85,8 @@ module router_mesh(
     localparam channel_width = 70 ;
     localparam flow_ctrl_width = 3;
     localparam num_routers = 9;
+    // wire reset;
+    // assign reset = reset;
    
 	//wires that are directly conected to the channel/flow_ctrl ports of each router
 	wire [0:69] channel_router_0_op_0;
