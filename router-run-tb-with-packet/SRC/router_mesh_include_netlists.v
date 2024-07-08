@@ -19,7 +19,7 @@
 `include "./../common-files/router-rtl-files/testbench/packet_source.v"
 `include "./../common-files/router-rtl-files/testbench/flit_sink.v"
 
-// `include "./../common-files/router-rtl-files/op/router_wrap.v"
+`include "./../common-files/router-rtl-files/op/router_wrap.v"
 `include "./../common-files/router-rtl-files/testbench/router_mesh1.v"
 
 `include "./SRC/router_mesh_top_formal_verification.v"

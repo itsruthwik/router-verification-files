@@ -11,7 +11,7 @@
 // ------ Include user-defined netlists -----
 `include "./../common-files/dff.v"
 `include "./../common-files/gpio.v"
-`include "./../common-files/router-rtl-files/op/router_wrap.v"
+//`include "./../common-files/router-rtl-files/op/router_wrap.v"
 // ------ Include primitive module netlists -----
 `include "./SRC/sub_module/inv_buf_passgate.v"
 `include "./SRC/sub_module/arch_encoder.v"
