@@ -1,3 +1,5 @@
+
+`timescale 1ns/100ps
 `default_nettype none
 
 module testbench
@@ -330,12 +332,12 @@ module testbench
    wire [0:(num_routers*flow_ctrl_width)-1] injection_flow_ctrl;
    wire [0:(num_routers*channel_width)-1] ejection_channels;
    wire [0:(num_routers*flow_ctrl_width)-1] ejection_flow_ctrl;
-   wire [0:num_routers-1]				    rtr_error;
+   wire [0:num_routers-1]   rtr_error;
 
 
    wire [0:(num_routers*channel_width)-1] ejection_channels_gfpga;
    wire [0:(num_routers*flow_ctrl_width)-1] injection_flow_ctrl_gfpga;
-   wire [0:num_routers-1]				    rtr_error_gfpga;
+   wire [0:num_routers-1]   rtr_error_gfpga;
 
 
 
@@ -2849,10 +2851,35 @@ module testbench
    integer d;
    
 
-      	initial begin
-		      $dumpfile("router_mesh_tb_2.vcd");
-		      $dumpvars(1, testbench);
-      	end
+  	// initial begin
+	//       $dumpfile("router_mesh_tb_3.vcd");
+	//       $dumpvars(0, testbench);
+  	// end
+
+  	initial begin
+	      $dumpfile("router_mesh_tb_vars_1.vcd");
+	      $dumpvars(0, injection_channels, ejection_channels, ejection_channels_gfpga, ejection_flow_ctrl, injection_flow_ctrl, injection_flow_ctrl_gfpga);
+  	end
+
+
+	initial begin
+	#(30*Tclk);
+		if(!(rtr_error_gfpga === rtr_error) && !(rtr_error === 1'bx) && !(rtr_error_gfpga === 1'bx)) begin
+
+			$display("Mismatch on rtr_error_gfpga at time = %t", $realtime);
+		end
+
+		if(!(ejection_channels_gfpga === ejection_channels) && !(ejection_channels === 1'bx) && !(ejection_channels_gfpga === 1'bx)) begin
+
+			$display("Mismatch on ejection_channels_gfpga at time = %t", $realtime);
+		end
+
+		if(!(injection_flow_ctrl_gfpga === injection_flow_ctrl) && !(injection_flow_ctrl === 1'bx) && !(injection_flow_ctrl_gfpga === 1'bx)) begin
+
+			$display("Mismatch on injection_flow_ctrl_gfpga at time = %t", $realtime);
+		end
+	end
+
 
    initial
    begin
