@@ -3,7 +3,7 @@
 //	Description: Verilog modules for pb_type: router
 //	Author: Xifan TANG
 //	Organization: University of Utah
-//	Date: Fri Jul 19 20:18:04 2024
+//	Date: Sat Jul 20 12:17:04 2024
 //-------------------------------------------
 // ----- BEGIN Physical programmable logic block Verilog module: router -----
 //----- Default net type -----
@@ -469,43 +469,43 @@ wire [0:0] direct_interc_422_out;
 wire [0:0] direct_interc_423_out;
 wire [0:0] direct_interc_424_out;
 wire [0:0] direct_interc_425_out;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_0;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_1;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_2;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_3;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_4;
-wire [0:34] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0;
-wire [0:34] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1;
-wire [0:34] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2;
-wire [0:34] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3;
-wire [0:34] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_0;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_1;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_2;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_3;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_4;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_0;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_1;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_2;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_3;
-wire [0:1] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_4;
-wire [0:0] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_0;
-wire [0:0] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_1;
-wire [0:0] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_2;
-wire [0:0] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_3;
-wire [0:0] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_4;
-wire [0:0] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_0;
-wire [0:0] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_1;
-wire [0:0] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_2;
-wire [0:0] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_3;
-wire [0:0] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_4;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_0;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_1;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_2;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_3;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_4;
+wire [0:34] logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0;
+wire [0:34] logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1;
+wire [0:34] logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2;
+wire [0:34] logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3;
+wire [0:34] logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_0;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_1;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_2;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_3;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_4;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_0;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_1;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_2;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_3;
+wire [0:1] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_4;
+wire [0:0] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_0;
+wire [0:0] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_1;
+wire [0:0] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_2;
+wire [0:0] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_3;
+wire [0:0] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_4;
+wire [0:0] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_0;
+wire [0:0] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_1;
+wire [0:0] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_2;
+wire [0:0] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_3;
+wire [0:0] logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_4;
 
 // ----- BEGIN Local short connections -----
 // ----- END Local short connections -----
 // ----- BEGIN Local output short connections -----
 // ----- END Local output short connections -----
 
-	logical_tile_router_mode_router_wrap__router_wrap logical_tile_router_mode_router_wrap__router_wrap_0 (
+	logical_tile_router_mode_physical__router_wrap logical_tile_router_mode_physical__router_wrap_0 (
 		.clk(clk),
 		.router_wrap_rst_(direct_interc_215_out),
 		.router_wrap_my_xpos({direct_interc_216_out, direct_interc_217_out}),
@@ -535,896 +535,896 @@ wire [0:0] logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_
 		.router_wrap_ilck_2({direct_interc_419_out, direct_interc_420_out}),
 		.router_wrap_ilck_3({direct_interc_421_out, direct_interc_422_out}),
 		.router_wrap_ilck_4({direct_interc_423_out, direct_interc_424_out}),
-		.router_wrap_odata_0(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[0:34]),
-		.router_wrap_odata_1(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[0:34]),
-		.router_wrap_odata_2(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[0:34]),
-		.router_wrap_odata_3(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[0:34]),
-		.router_wrap_odata_4(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[0:34]),
-		.router_wrap_ovalid_0(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_0),
-		.router_wrap_ovalid_1(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_1),
-		.router_wrap_ovalid_2(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_2),
-		.router_wrap_ovalid_3(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_3),
-		.router_wrap_ovalid_4(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_4),
-		.router_wrap_ovch_0(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_0),
-		.router_wrap_ovch_1(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_1),
-		.router_wrap_ovch_2(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_2),
-		.router_wrap_ovch_3(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_3),
-		.router_wrap_ovch_4(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_4),
-		.router_wrap_oack_0(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_0[0:1]),
-		.router_wrap_oack_1(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_1[0:1]),
-		.router_wrap_oack_2(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_2[0:1]),
-		.router_wrap_oack_3(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_3[0:1]),
-		.router_wrap_oack_4(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_4[0:1]),
-		.router_wrap_ordy_0(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_0[0:1]),
-		.router_wrap_ordy_1(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_1[0:1]),
-		.router_wrap_ordy_2(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_2[0:1]),
-		.router_wrap_ordy_3(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_3[0:1]),
-		.router_wrap_ordy_4(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_4[0:1]),
-		.router_wrap_olck_0(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_0[0:1]),
-		.router_wrap_olck_1(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_1[0:1]),
-		.router_wrap_olck_2(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_2[0:1]),
-		.router_wrap_olck_3(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_3[0:1]),
-		.router_wrap_olck_4(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_4[0:1]),
+		.router_wrap_odata_0(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[0:34]),
+		.router_wrap_odata_1(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[0:34]),
+		.router_wrap_odata_2(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[0:34]),
+		.router_wrap_odata_3(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[0:34]),
+		.router_wrap_odata_4(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[0:34]),
+		.router_wrap_ovalid_0(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_0),
+		.router_wrap_ovalid_1(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_1),
+		.router_wrap_ovalid_2(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_2),
+		.router_wrap_ovalid_3(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_3),
+		.router_wrap_ovalid_4(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_4),
+		.router_wrap_ovch_0(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_0),
+		.router_wrap_ovch_1(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_1),
+		.router_wrap_ovch_2(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_2),
+		.router_wrap_ovch_3(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_3),
+		.router_wrap_ovch_4(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_4),
+		.router_wrap_oack_0(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_0[0:1]),
+		.router_wrap_oack_1(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_1[0:1]),
+		.router_wrap_oack_2(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_2[0:1]),
+		.router_wrap_oack_3(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_3[0:1]),
+		.router_wrap_oack_4(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_4[0:1]),
+		.router_wrap_ordy_0(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_0[0:1]),
+		.router_wrap_ordy_1(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_1[0:1]),
+		.router_wrap_ordy_2(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_2[0:1]),
+		.router_wrap_ordy_3(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_3[0:1]),
+		.router_wrap_ordy_4(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_4[0:1]),
+		.router_wrap_olck_0(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_0[0:1]),
+		.router_wrap_olck_1(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_1[0:1]),
+		.router_wrap_olck_2(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_2[0:1]),
+		.router_wrap_olck_3(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_3[0:1]),
+		.router_wrap_olck_4(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_4[0:1]),
 		.router_wrap_clk(direct_interc_425_out));
 
 	direct_interc direct_interc_0_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[0]),
 		.out(router_odata_0[0]));
 
 	direct_interc direct_interc_1_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[1]),
 		.out(router_odata_0[1]));
 
 	direct_interc direct_interc_2_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[2]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[2]),
 		.out(router_odata_0[2]));
 
 	direct_interc direct_interc_3_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[3]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[3]),
 		.out(router_odata_0[3]));
 
 	direct_interc direct_interc_4_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[4]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[4]),
 		.out(router_odata_0[4]));
 
 	direct_interc direct_interc_5_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[5]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[5]),
 		.out(router_odata_0[5]));
 
 	direct_interc direct_interc_6_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[6]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[6]),
 		.out(router_odata_0[6]));
 
 	direct_interc direct_interc_7_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[7]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[7]),
 		.out(router_odata_0[7]));
 
 	direct_interc direct_interc_8_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[8]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[8]),
 		.out(router_odata_0[8]));
 
 	direct_interc direct_interc_9_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[9]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[9]),
 		.out(router_odata_0[9]));
 
 	direct_interc direct_interc_10_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[10]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[10]),
 		.out(router_odata_0[10]));
 
 	direct_interc direct_interc_11_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[11]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[11]),
 		.out(router_odata_0[11]));
 
 	direct_interc direct_interc_12_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[12]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[12]),
 		.out(router_odata_0[12]));
 
 	direct_interc direct_interc_13_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[13]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[13]),
 		.out(router_odata_0[13]));
 
 	direct_interc direct_interc_14_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[14]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[14]),
 		.out(router_odata_0[14]));
 
 	direct_interc direct_interc_15_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[15]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[15]),
 		.out(router_odata_0[15]));
 
 	direct_interc direct_interc_16_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[16]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[16]),
 		.out(router_odata_0[16]));
 
 	direct_interc direct_interc_17_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[17]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[17]),
 		.out(router_odata_0[17]));
 
 	direct_interc direct_interc_18_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[18]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[18]),
 		.out(router_odata_0[18]));
 
 	direct_interc direct_interc_19_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[19]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[19]),
 		.out(router_odata_0[19]));
 
 	direct_interc direct_interc_20_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[20]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[20]),
 		.out(router_odata_0[20]));
 
 	direct_interc direct_interc_21_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[21]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[21]),
 		.out(router_odata_0[21]));
 
 	direct_interc direct_interc_22_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[22]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[22]),
 		.out(router_odata_0[22]));
 
 	direct_interc direct_interc_23_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[23]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[23]),
 		.out(router_odata_0[23]));
 
 	direct_interc direct_interc_24_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[24]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[24]),
 		.out(router_odata_0[24]));
 
 	direct_interc direct_interc_25_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[25]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[25]),
 		.out(router_odata_0[25]));
 
 	direct_interc direct_interc_26_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[26]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[26]),
 		.out(router_odata_0[26]));
 
 	direct_interc direct_interc_27_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[27]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[27]),
 		.out(router_odata_0[27]));
 
 	direct_interc direct_interc_28_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[28]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[28]),
 		.out(router_odata_0[28]));
 
 	direct_interc direct_interc_29_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[29]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[29]),
 		.out(router_odata_0[29]));
 
 	direct_interc direct_interc_30_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[30]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[30]),
 		.out(router_odata_0[30]));
 
 	direct_interc direct_interc_31_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[31]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[31]),
 		.out(router_odata_0[31]));
 
 	direct_interc direct_interc_32_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[32]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[32]),
 		.out(router_odata_0[32]));
 
 	direct_interc direct_interc_33_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[33]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[33]),
 		.out(router_odata_0[33]));
 
 	direct_interc direct_interc_34_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_0[34]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_0[34]),
 		.out(router_odata_0[34]));
 
 	direct_interc direct_interc_35_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[0]),
 		.out(router_odata_1[0]));
 
 	direct_interc direct_interc_36_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[1]),
 		.out(router_odata_1[1]));
 
 	direct_interc direct_interc_37_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[2]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[2]),
 		.out(router_odata_1[2]));
 
 	direct_interc direct_interc_38_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[3]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[3]),
 		.out(router_odata_1[3]));
 
 	direct_interc direct_interc_39_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[4]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[4]),
 		.out(router_odata_1[4]));
 
 	direct_interc direct_interc_40_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[5]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[5]),
 		.out(router_odata_1[5]));
 
 	direct_interc direct_interc_41_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[6]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[6]),
 		.out(router_odata_1[6]));
 
 	direct_interc direct_interc_42_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[7]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[7]),
 		.out(router_odata_1[7]));
 
 	direct_interc direct_interc_43_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[8]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[8]),
 		.out(router_odata_1[8]));
 
 	direct_interc direct_interc_44_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[9]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[9]),
 		.out(router_odata_1[9]));
 
 	direct_interc direct_interc_45_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[10]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[10]),
 		.out(router_odata_1[10]));
 
 	direct_interc direct_interc_46_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[11]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[11]),
 		.out(router_odata_1[11]));
 
 	direct_interc direct_interc_47_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[12]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[12]),
 		.out(router_odata_1[12]));
 
 	direct_interc direct_interc_48_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[13]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[13]),
 		.out(router_odata_1[13]));
 
 	direct_interc direct_interc_49_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[14]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[14]),
 		.out(router_odata_1[14]));
 
 	direct_interc direct_interc_50_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[15]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[15]),
 		.out(router_odata_1[15]));
 
 	direct_interc direct_interc_51_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[16]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[16]),
 		.out(router_odata_1[16]));
 
 	direct_interc direct_interc_52_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[17]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[17]),
 		.out(router_odata_1[17]));
 
 	direct_interc direct_interc_53_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[18]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[18]),
 		.out(router_odata_1[18]));
 
 	direct_interc direct_interc_54_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[19]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[19]),
 		.out(router_odata_1[19]));
 
 	direct_interc direct_interc_55_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[20]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[20]),
 		.out(router_odata_1[20]));
 
 	direct_interc direct_interc_56_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[21]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[21]),
 		.out(router_odata_1[21]));
 
 	direct_interc direct_interc_57_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[22]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[22]),
 		.out(router_odata_1[22]));
 
 	direct_interc direct_interc_58_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[23]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[23]),
 		.out(router_odata_1[23]));
 
 	direct_interc direct_interc_59_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[24]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[24]),
 		.out(router_odata_1[24]));
 
 	direct_interc direct_interc_60_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[25]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[25]),
 		.out(router_odata_1[25]));
 
 	direct_interc direct_interc_61_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[26]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[26]),
 		.out(router_odata_1[26]));
 
 	direct_interc direct_interc_62_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[27]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[27]),
 		.out(router_odata_1[27]));
 
 	direct_interc direct_interc_63_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[28]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[28]),
 		.out(router_odata_1[28]));
 
 	direct_interc direct_interc_64_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[29]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[29]),
 		.out(router_odata_1[29]));
 
 	direct_interc direct_interc_65_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[30]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[30]),
 		.out(router_odata_1[30]));
 
 	direct_interc direct_interc_66_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[31]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[31]),
 		.out(router_odata_1[31]));
 
 	direct_interc direct_interc_67_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[32]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[32]),
 		.out(router_odata_1[32]));
 
 	direct_interc direct_interc_68_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[33]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[33]),
 		.out(router_odata_1[33]));
 
 	direct_interc direct_interc_69_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_1[34]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_1[34]),
 		.out(router_odata_1[34]));
 
 	direct_interc direct_interc_70_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[0]),
 		.out(router_odata_2[0]));
 
 	direct_interc direct_interc_71_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[1]),
 		.out(router_odata_2[1]));
 
 	direct_interc direct_interc_72_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[2]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[2]),
 		.out(router_odata_2[2]));
 
 	direct_interc direct_interc_73_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[3]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[3]),
 		.out(router_odata_2[3]));
 
 	direct_interc direct_interc_74_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[4]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[4]),
 		.out(router_odata_2[4]));
 
 	direct_interc direct_interc_75_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[5]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[5]),
 		.out(router_odata_2[5]));
 
 	direct_interc direct_interc_76_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[6]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[6]),
 		.out(router_odata_2[6]));
 
 	direct_interc direct_interc_77_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[7]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[7]),
 		.out(router_odata_2[7]));
 
 	direct_interc direct_interc_78_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[8]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[8]),
 		.out(router_odata_2[8]));
 
 	direct_interc direct_interc_79_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[9]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[9]),
 		.out(router_odata_2[9]));
 
 	direct_interc direct_interc_80_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[10]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[10]),
 		.out(router_odata_2[10]));
 
 	direct_interc direct_interc_81_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[11]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[11]),
 		.out(router_odata_2[11]));
 
 	direct_interc direct_interc_82_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[12]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[12]),
 		.out(router_odata_2[12]));
 
 	direct_interc direct_interc_83_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[13]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[13]),
 		.out(router_odata_2[13]));
 
 	direct_interc direct_interc_84_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[14]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[14]),
 		.out(router_odata_2[14]));
 
 	direct_interc direct_interc_85_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[15]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[15]),
 		.out(router_odata_2[15]));
 
 	direct_interc direct_interc_86_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[16]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[16]),
 		.out(router_odata_2[16]));
 
 	direct_interc direct_interc_87_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[17]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[17]),
 		.out(router_odata_2[17]));
 
 	direct_interc direct_interc_88_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[18]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[18]),
 		.out(router_odata_2[18]));
 
 	direct_interc direct_interc_89_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[19]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[19]),
 		.out(router_odata_2[19]));
 
 	direct_interc direct_interc_90_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[20]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[20]),
 		.out(router_odata_2[20]));
 
 	direct_interc direct_interc_91_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[21]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[21]),
 		.out(router_odata_2[21]));
 
 	direct_interc direct_interc_92_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[22]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[22]),
 		.out(router_odata_2[22]));
 
 	direct_interc direct_interc_93_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[23]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[23]),
 		.out(router_odata_2[23]));
 
 	direct_interc direct_interc_94_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[24]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[24]),
 		.out(router_odata_2[24]));
 
 	direct_interc direct_interc_95_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[25]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[25]),
 		.out(router_odata_2[25]));
 
 	direct_interc direct_interc_96_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[26]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[26]),
 		.out(router_odata_2[26]));
 
 	direct_interc direct_interc_97_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[27]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[27]),
 		.out(router_odata_2[27]));
 
 	direct_interc direct_interc_98_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[28]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[28]),
 		.out(router_odata_2[28]));
 
 	direct_interc direct_interc_99_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[29]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[29]),
 		.out(router_odata_2[29]));
 
 	direct_interc direct_interc_100_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[30]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[30]),
 		.out(router_odata_2[30]));
 
 	direct_interc direct_interc_101_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[31]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[31]),
 		.out(router_odata_2[31]));
 
 	direct_interc direct_interc_102_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[32]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[32]),
 		.out(router_odata_2[32]));
 
 	direct_interc direct_interc_103_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[33]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[33]),
 		.out(router_odata_2[33]));
 
 	direct_interc direct_interc_104_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_2[34]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_2[34]),
 		.out(router_odata_2[34]));
 
 	direct_interc direct_interc_105_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[0]),
 		.out(router_odata_3[0]));
 
 	direct_interc direct_interc_106_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[1]),
 		.out(router_odata_3[1]));
 
 	direct_interc direct_interc_107_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[2]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[2]),
 		.out(router_odata_3[2]));
 
 	direct_interc direct_interc_108_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[3]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[3]),
 		.out(router_odata_3[3]));
 
 	direct_interc direct_interc_109_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[4]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[4]),
 		.out(router_odata_3[4]));
 
 	direct_interc direct_interc_110_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[5]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[5]),
 		.out(router_odata_3[5]));
 
 	direct_interc direct_interc_111_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[6]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[6]),
 		.out(router_odata_3[6]));
 
 	direct_interc direct_interc_112_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[7]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[7]),
 		.out(router_odata_3[7]));
 
 	direct_interc direct_interc_113_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[8]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[8]),
 		.out(router_odata_3[8]));
 
 	direct_interc direct_interc_114_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[9]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[9]),
 		.out(router_odata_3[9]));
 
 	direct_interc direct_interc_115_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[10]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[10]),
 		.out(router_odata_3[10]));
 
 	direct_interc direct_interc_116_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[11]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[11]),
 		.out(router_odata_3[11]));
 
 	direct_interc direct_interc_117_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[12]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[12]),
 		.out(router_odata_3[12]));
 
 	direct_interc direct_interc_118_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[13]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[13]),
 		.out(router_odata_3[13]));
 
 	direct_interc direct_interc_119_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[14]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[14]),
 		.out(router_odata_3[14]));
 
 	direct_interc direct_interc_120_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[15]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[15]),
 		.out(router_odata_3[15]));
 
 	direct_interc direct_interc_121_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[16]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[16]),
 		.out(router_odata_3[16]));
 
 	direct_interc direct_interc_122_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[17]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[17]),
 		.out(router_odata_3[17]));
 
 	direct_interc direct_interc_123_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[18]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[18]),
 		.out(router_odata_3[18]));
 
 	direct_interc direct_interc_124_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[19]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[19]),
 		.out(router_odata_3[19]));
 
 	direct_interc direct_interc_125_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[20]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[20]),
 		.out(router_odata_3[20]));
 
 	direct_interc direct_interc_126_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[21]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[21]),
 		.out(router_odata_3[21]));
 
 	direct_interc direct_interc_127_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[22]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[22]),
 		.out(router_odata_3[22]));
 
 	direct_interc direct_interc_128_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[23]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[23]),
 		.out(router_odata_3[23]));
 
 	direct_interc direct_interc_129_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[24]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[24]),
 		.out(router_odata_3[24]));
 
 	direct_interc direct_interc_130_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[25]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[25]),
 		.out(router_odata_3[25]));
 
 	direct_interc direct_interc_131_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[26]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[26]),
 		.out(router_odata_3[26]));
 
 	direct_interc direct_interc_132_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[27]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[27]),
 		.out(router_odata_3[27]));
 
 	direct_interc direct_interc_133_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[28]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[28]),
 		.out(router_odata_3[28]));
 
 	direct_interc direct_interc_134_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[29]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[29]),
 		.out(router_odata_3[29]));
 
 	direct_interc direct_interc_135_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[30]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[30]),
 		.out(router_odata_3[30]));
 
 	direct_interc direct_interc_136_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[31]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[31]),
 		.out(router_odata_3[31]));
 
 	direct_interc direct_interc_137_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[32]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[32]),
 		.out(router_odata_3[32]));
 
 	direct_interc direct_interc_138_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[33]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[33]),
 		.out(router_odata_3[33]));
 
 	direct_interc direct_interc_139_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_3[34]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_3[34]),
 		.out(router_odata_3[34]));
 
 	direct_interc direct_interc_140_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[0]),
 		.out(router_odata_4[0]));
 
 	direct_interc direct_interc_141_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[1]),
 		.out(router_odata_4[1]));
 
 	direct_interc direct_interc_142_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[2]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[2]),
 		.out(router_odata_4[2]));
 
 	direct_interc direct_interc_143_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[3]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[3]),
 		.out(router_odata_4[3]));
 
 	direct_interc direct_interc_144_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[4]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[4]),
 		.out(router_odata_4[4]));
 
 	direct_interc direct_interc_145_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[5]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[5]),
 		.out(router_odata_4[5]));
 
 	direct_interc direct_interc_146_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[6]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[6]),
 		.out(router_odata_4[6]));
 
 	direct_interc direct_interc_147_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[7]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[7]),
 		.out(router_odata_4[7]));
 
 	direct_interc direct_interc_148_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[8]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[8]),
 		.out(router_odata_4[8]));
 
 	direct_interc direct_interc_149_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[9]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[9]),
 		.out(router_odata_4[9]));
 
 	direct_interc direct_interc_150_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[10]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[10]),
 		.out(router_odata_4[10]));
 
 	direct_interc direct_interc_151_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[11]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[11]),
 		.out(router_odata_4[11]));
 
 	direct_interc direct_interc_152_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[12]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[12]),
 		.out(router_odata_4[12]));
 
 	direct_interc direct_interc_153_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[13]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[13]),
 		.out(router_odata_4[13]));
 
 	direct_interc direct_interc_154_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[14]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[14]),
 		.out(router_odata_4[14]));
 
 	direct_interc direct_interc_155_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[15]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[15]),
 		.out(router_odata_4[15]));
 
 	direct_interc direct_interc_156_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[16]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[16]),
 		.out(router_odata_4[16]));
 
 	direct_interc direct_interc_157_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[17]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[17]),
 		.out(router_odata_4[17]));
 
 	direct_interc direct_interc_158_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[18]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[18]),
 		.out(router_odata_4[18]));
 
 	direct_interc direct_interc_159_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[19]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[19]),
 		.out(router_odata_4[19]));
 
 	direct_interc direct_interc_160_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[20]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[20]),
 		.out(router_odata_4[20]));
 
 	direct_interc direct_interc_161_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[21]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[21]),
 		.out(router_odata_4[21]));
 
 	direct_interc direct_interc_162_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[22]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[22]),
 		.out(router_odata_4[22]));
 
 	direct_interc direct_interc_163_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[23]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[23]),
 		.out(router_odata_4[23]));
 
 	direct_interc direct_interc_164_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[24]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[24]),
 		.out(router_odata_4[24]));
 
 	direct_interc direct_interc_165_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[25]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[25]),
 		.out(router_odata_4[25]));
 
 	direct_interc direct_interc_166_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[26]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[26]),
 		.out(router_odata_4[26]));
 
 	direct_interc direct_interc_167_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[27]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[27]),
 		.out(router_odata_4[27]));
 
 	direct_interc direct_interc_168_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[28]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[28]),
 		.out(router_odata_4[28]));
 
 	direct_interc direct_interc_169_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[29]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[29]),
 		.out(router_odata_4[29]));
 
 	direct_interc direct_interc_170_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[30]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[30]),
 		.out(router_odata_4[30]));
 
 	direct_interc direct_interc_171_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[31]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[31]),
 		.out(router_odata_4[31]));
 
 	direct_interc direct_interc_172_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[32]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[32]),
 		.out(router_odata_4[32]));
 
 	direct_interc direct_interc_173_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[33]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[33]),
 		.out(router_odata_4[33]));
 
 	direct_interc direct_interc_174_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_odata_4[34]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_odata_4[34]),
 		.out(router_odata_4[34]));
 
 	direct_interc direct_interc_175_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_0),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_0),
 		.out(router_ovalid_0));
 
 	direct_interc direct_interc_176_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_1),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_1),
 		.out(router_ovalid_1));
 
 	direct_interc direct_interc_177_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_2),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_2),
 		.out(router_ovalid_2));
 
 	direct_interc direct_interc_178_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_3),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_3),
 		.out(router_ovalid_3));
 
 	direct_interc direct_interc_179_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovalid_4),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovalid_4),
 		.out(router_ovalid_4));
 
 	direct_interc direct_interc_180_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_0),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_0),
 		.out(router_ovch_0));
 
 	direct_interc direct_interc_181_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_1),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_1),
 		.out(router_ovch_1));
 
 	direct_interc direct_interc_182_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_2),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_2),
 		.out(router_ovch_2));
 
 	direct_interc direct_interc_183_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_3),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_3),
 		.out(router_ovch_3));
 
 	direct_interc direct_interc_184_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ovch_4),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ovch_4),
 		.out(router_ovch_4));
 
 	direct_interc direct_interc_185_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_0[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_0[0]),
 		.out(router_oack_0[0]));
 
 	direct_interc direct_interc_186_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_0[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_0[1]),
 		.out(router_oack_0[1]));
 
 	direct_interc direct_interc_187_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_1[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_1[0]),
 		.out(router_oack_1[0]));
 
 	direct_interc direct_interc_188_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_1[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_1[1]),
 		.out(router_oack_1[1]));
 
 	direct_interc direct_interc_189_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_2[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_2[0]),
 		.out(router_oack_2[0]));
 
 	direct_interc direct_interc_190_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_2[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_2[1]),
 		.out(router_oack_2[1]));
 
 	direct_interc direct_interc_191_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_3[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_3[0]),
 		.out(router_oack_3[0]));
 
 	direct_interc direct_interc_192_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_3[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_3[1]),
 		.out(router_oack_3[1]));
 
 	direct_interc direct_interc_193_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_4[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_4[0]),
 		.out(router_oack_4[0]));
 
 	direct_interc direct_interc_194_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_oack_4[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_oack_4[1]),
 		.out(router_oack_4[1]));
 
 	direct_interc direct_interc_195_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_0[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_0[0]),
 		.out(router_ordy_0[0]));
 
 	direct_interc direct_interc_196_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_0[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_0[1]),
 		.out(router_ordy_0[1]));
 
 	direct_interc direct_interc_197_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_1[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_1[0]),
 		.out(router_ordy_1[0]));
 
 	direct_interc direct_interc_198_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_1[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_1[1]),
 		.out(router_ordy_1[1]));
 
 	direct_interc direct_interc_199_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_2[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_2[0]),
 		.out(router_ordy_2[0]));
 
 	direct_interc direct_interc_200_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_2[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_2[1]),
 		.out(router_ordy_2[1]));
 
 	direct_interc direct_interc_201_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_3[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_3[0]),
 		.out(router_ordy_3[0]));
 
 	direct_interc direct_interc_202_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_3[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_3[1]),
 		.out(router_ordy_3[1]));
 
 	direct_interc direct_interc_203_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_4[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_4[0]),
 		.out(router_ordy_4[0]));
 
 	direct_interc direct_interc_204_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_ordy_4[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_ordy_4[1]),
 		.out(router_ordy_4[1]));
 
 	direct_interc direct_interc_205_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_0[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_0[0]),
 		.out(router_olck_0[0]));
 
 	direct_interc direct_interc_206_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_0[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_0[1]),
 		.out(router_olck_0[1]));
 
 	direct_interc direct_interc_207_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_1[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_1[0]),
 		.out(router_olck_1[0]));
 
 	direct_interc direct_interc_208_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_1[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_1[1]),
 		.out(router_olck_1[1]));
 
 	direct_interc direct_interc_209_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_2[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_2[0]),
 		.out(router_olck_2[0]));
 
 	direct_interc direct_interc_210_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_2[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_2[1]),
 		.out(router_olck_2[1]));
 
 	direct_interc direct_interc_211_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_3[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_3[0]),
 		.out(router_olck_3[0]));
 
 	direct_interc direct_interc_212_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_3[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_3[1]),
 		.out(router_olck_3[1]));
 
 	direct_interc direct_interc_213_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_4[0]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_4[0]),
 		.out(router_olck_4[0]));
 
 	direct_interc direct_interc_214_ (
-		.in(logical_tile_router_mode_router_wrap__router_wrap_0_router_wrap_olck_4[1]),
+		.in(logical_tile_router_mode_physical__router_wrap_0_router_wrap_olck_4[1]),
 		.out(router_olck_4[1]));
 
 	direct_interc direct_interc_215_ (

@@ -3,7 +3,7 @@
 //	Description: FPGA Verilog Testbench for Formal Top-level netlist of Design: noc
 //	Author: Xifan TANG
 //	Organization: University of Utah
-//	Date: Fri Jul 19 20:18:12 2024
+//	Date: Sat Jul 20 12:17:24 2024
 //-------------------------------------------
 //----- Default net type -----
 `default_nettype none

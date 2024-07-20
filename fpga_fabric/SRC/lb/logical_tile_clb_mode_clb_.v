@@ -3,7 +3,7 @@
 //	Description: Verilog modules for pb_type: clb
 //	Author: Xifan TANG
 //	Organization: University of Utah
-//	Date: Fri Jul 19 20:18:04 2024
+//	Date: Sat Jul 20 12:17:04 2024
 //-------------------------------------------
 // ----- BEGIN Physical programmable logic block Verilog module: clb -----
 //----- Default net type -----

@@ -3,7 +3,7 @@
 //	Description: Netlist Summary
 //	Author: Xifan TANG
 //	Organization: University of Utah
-//	Date: Fri Jul 19 20:18:12 2024
+//	Date: Sat Jul 20 12:17:24 2024
 //-------------------------------------------
 //----- Time scale -----
 `timescale 1ns / 1ps
