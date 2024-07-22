@@ -3,13 +3,13 @@
 //	Description: Memories used in FPGA
 //	Author: Xifan TANG
 //	Organization: University of Utah
-//	Date: Sat Jul 20 12:17:04 2024
+//	Date: Sun Jul 21 19:29:39 2024
 //-------------------------------------------
 //----- Default net type -----
 `default_nettype none
 
-// ----- Verilog module for mux_tree_tapbuf_size54_mem -----
-module mux_tree_tapbuf_size54_mem(prog_clk,
+// ----- Verilog module for mux_tree_tapbuf_size36_mem -----
+module mux_tree_tapbuf_size36_mem(prog_clk,
                                   ccff_head,
                                   ccff_tail,
                                   mem_out,
@@ -77,7 +77,379 @@ output [0:5] mem_outb;
 		.QN(mem_outb[5]));
 
 endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size54_mem -----
+// ----- END Verilog module for mux_tree_tapbuf_size36_mem -----
+
+//----- Default net type -----
+`default_nettype wire
+
+
+
+
+//----- Default net type -----
+`default_nettype none
+
+// ----- Verilog module for mux_tree_tapbuf_size3_mem -----
+module mux_tree_tapbuf_size3_mem(prog_clk,
+                                 ccff_head,
+                                 ccff_tail,
+                                 mem_out,
+                                 mem_outb);
+//----- GLOBAL PORTS -----
+input [0:0] prog_clk;
+//----- INPUT PORTS -----
+input [0:0] ccff_head;
+//----- OUTPUT PORTS -----
+output [0:0] ccff_tail;
+//----- OUTPUT PORTS -----
+output [0:1] mem_out;
+//----- OUTPUT PORTS -----
+output [0:1] mem_outb;
+
+//----- BEGIN wire-connection ports -----
+//----- END wire-connection ports -----
+
+
+//----- BEGIN Registered ports -----
+//----- END Registered ports -----
+
+
+
+// ----- BEGIN Local short connections -----
+// ----- END Local short connections -----
+// ----- BEGIN Local output short connections -----
+	assign ccff_tail[0] = mem_out[1];
+// ----- END Local output short connections -----
+
+	DFF DFF_0_ (
+		.CK(prog_clk),
+		.D(ccff_head),
+		.Q(mem_out[0]),
+		.QN(mem_outb[0]));
+
+	DFF DFF_1_ (
+		.CK(prog_clk),
+		.D(mem_out[0]),
+		.Q(mem_out[1]),
+		.QN(mem_outb[1]));
+
+endmodule
+// ----- END Verilog module for mux_tree_tapbuf_size3_mem -----
+
+//----- Default net type -----
+`default_nettype wire
+
+
+
+
+//----- Default net type -----
+`default_nettype none
+
+// ----- Verilog module for mux_tree_tapbuf_size6_mem -----
+module mux_tree_tapbuf_size6_mem(prog_clk,
+                                 ccff_head,
+                                 ccff_tail,
+                                 mem_out,
+                                 mem_outb);
+//----- GLOBAL PORTS -----
+input [0:0] prog_clk;
+//----- INPUT PORTS -----
+input [0:0] ccff_head;
+//----- OUTPUT PORTS -----
+output [0:0] ccff_tail;
+//----- OUTPUT PORTS -----
+output [0:2] mem_out;
+//----- OUTPUT PORTS -----
+output [0:2] mem_outb;
+
+//----- BEGIN wire-connection ports -----
+//----- END wire-connection ports -----
+
+
+//----- BEGIN Registered ports -----
+//----- END Registered ports -----
+
+
+
+// ----- BEGIN Local short connections -----
+// ----- END Local short connections -----
+// ----- BEGIN Local output short connections -----
+	assign ccff_tail[0] = mem_out[2];
+// ----- END Local output short connections -----
+
+	DFF DFF_0_ (
+		.CK(prog_clk),
+		.D(ccff_head),
+		.Q(mem_out[0]),
+		.QN(mem_outb[0]));
+
+	DFF DFF_1_ (
+		.CK(prog_clk),
+		.D(mem_out[0]),
+		.Q(mem_out[1]),
+		.QN(mem_outb[1]));
+
+	DFF DFF_2_ (
+		.CK(prog_clk),
+		.D(mem_out[1]),
+		.Q(mem_out[2]),
+		.QN(mem_outb[2]));
+
+endmodule
+// ----- END Verilog module for mux_tree_tapbuf_size6_mem -----
+
+//----- Default net type -----
+`default_nettype wire
+
+
+
+
+//----- Default net type -----
+`default_nettype none
+
+// ----- Verilog module for mux_tree_tapbuf_size5_mem -----
+module mux_tree_tapbuf_size5_mem(prog_clk,
+                                 ccff_head,
+                                 ccff_tail,
+                                 mem_out,
+                                 mem_outb);
+//----- GLOBAL PORTS -----
+input [0:0] prog_clk;
+//----- INPUT PORTS -----
+input [0:0] ccff_head;
+//----- OUTPUT PORTS -----
+output [0:0] ccff_tail;
+//----- OUTPUT PORTS -----
+output [0:2] mem_out;
+//----- OUTPUT PORTS -----
+output [0:2] mem_outb;
+
+//----- BEGIN wire-connection ports -----
+//----- END wire-connection ports -----
+
+
+//----- BEGIN Registered ports -----
+//----- END Registered ports -----
+
+
+
+// ----- BEGIN Local short connections -----
+// ----- END Local short connections -----
+// ----- BEGIN Local output short connections -----
+	assign ccff_tail[0] = mem_out[2];
+// ----- END Local output short connections -----
+
+	DFF DFF_0_ (
+		.CK(prog_clk),
+		.D(ccff_head),
+		.Q(mem_out[0]),
+		.QN(mem_outb[0]));
+
+	DFF DFF_1_ (
+		.CK(prog_clk),
+		.D(mem_out[0]),
+		.Q(mem_out[1]),
+		.QN(mem_outb[1]));
+
+	DFF DFF_2_ (
+		.CK(prog_clk),
+		.D(mem_out[1]),
+		.Q(mem_out[2]),
+		.QN(mem_outb[2]));
+
+endmodule
+// ----- END Verilog module for mux_tree_tapbuf_size5_mem -----
+
+//----- Default net type -----
+`default_nettype wire
+
+
+
+
+//----- Default net type -----
+`default_nettype none
+
+// ----- Verilog module for mux_tree_tapbuf_size2_mem -----
+module mux_tree_tapbuf_size2_mem(prog_clk,
+                                 ccff_head,
+                                 ccff_tail,
+                                 mem_out,
+                                 mem_outb);
+//----- GLOBAL PORTS -----
+input [0:0] prog_clk;
+//----- INPUT PORTS -----
+input [0:0] ccff_head;
+//----- OUTPUT PORTS -----
+output [0:0] ccff_tail;
+//----- OUTPUT PORTS -----
+output [0:1] mem_out;
+//----- OUTPUT PORTS -----
+output [0:1] mem_outb;
+
+//----- BEGIN wire-connection ports -----
+//----- END wire-connection ports -----
+
+
+//----- BEGIN Registered ports -----
+//----- END Registered ports -----
+
+
+
+// ----- BEGIN Local short connections -----
+// ----- END Local short connections -----
+// ----- BEGIN Local output short connections -----
+	assign ccff_tail[0] = mem_out[1];
+// ----- END Local output short connections -----
+
+	DFF DFF_0_ (
+		.CK(prog_clk),
+		.D(ccff_head),
+		.Q(mem_out[0]),
+		.QN(mem_outb[0]));
+
+	DFF DFF_1_ (
+		.CK(prog_clk),
+		.D(mem_out[0]),
+		.Q(mem_out[1]),
+		.QN(mem_outb[1]));
+
+endmodule
+// ----- END Verilog module for mux_tree_tapbuf_size2_mem -----
+
+//----- Default net type -----
+`default_nettype wire
+
+
+
+
+//----- Default net type -----
+`default_nettype none
+
+// ----- Verilog module for mux_tree_tapbuf_size8_mem -----
+module mux_tree_tapbuf_size8_mem(prog_clk,
+                                 ccff_head,
+                                 ccff_tail,
+                                 mem_out,
+                                 mem_outb);
+//----- GLOBAL PORTS -----
+input [0:0] prog_clk;
+//----- INPUT PORTS -----
+input [0:0] ccff_head;
+//----- OUTPUT PORTS -----
+output [0:0] ccff_tail;
+//----- OUTPUT PORTS -----
+output [0:3] mem_out;
+//----- OUTPUT PORTS -----
+output [0:3] mem_outb;
+
+//----- BEGIN wire-connection ports -----
+//----- END wire-connection ports -----
+
+
+//----- BEGIN Registered ports -----
+//----- END Registered ports -----
+
+
+
+// ----- BEGIN Local short connections -----
+// ----- END Local short connections -----
+// ----- BEGIN Local output short connections -----
+	assign ccff_tail[0] = mem_out[3];
+// ----- END Local output short connections -----
+
+	DFF DFF_0_ (
+		.CK(prog_clk),
+		.D(ccff_head),
+		.Q(mem_out[0]),
+		.QN(mem_outb[0]));
+
+	DFF DFF_1_ (
+		.CK(prog_clk),
+		.D(mem_out[0]),
+		.Q(mem_out[1]),
+		.QN(mem_outb[1]));
+
+	DFF DFF_2_ (
+		.CK(prog_clk),
+		.D(mem_out[1]),
+		.Q(mem_out[2]),
+		.QN(mem_outb[2]));
+
+	DFF DFF_3_ (
+		.CK(prog_clk),
+		.D(mem_out[2]),
+		.Q(mem_out[3]),
+		.QN(mem_outb[3]));
+
+endmodule
+// ----- END Verilog module for mux_tree_tapbuf_size8_mem -----
+
+//----- Default net type -----
+`default_nettype wire
+
+
+
+
+//----- Default net type -----
+`default_nettype none
+
+// ----- Verilog module for mux_tree_tapbuf_size9_mem -----
+module mux_tree_tapbuf_size9_mem(prog_clk,
+                                 ccff_head,
+                                 ccff_tail,
+                                 mem_out,
+                                 mem_outb);
+//----- GLOBAL PORTS -----
+input [0:0] prog_clk;
+//----- INPUT PORTS -----
+input [0:0] ccff_head;
+//----- OUTPUT PORTS -----
+output [0:0] ccff_tail;
+//----- OUTPUT PORTS -----
+output [0:3] mem_out;
+//----- OUTPUT PORTS -----
+output [0:3] mem_outb;
+
+//----- BEGIN wire-connection ports -----
+//----- END wire-connection ports -----
+
+
+//----- BEGIN Registered ports -----
+//----- END Registered ports -----
+
+
+
+// ----- BEGIN Local short connections -----
+// ----- END Local short connections -----
+// ----- BEGIN Local output short connections -----
+	assign ccff_tail[0] = mem_out[3];
+// ----- END Local output short connections -----
+
+	DFF DFF_0_ (
+		.CK(prog_clk),
+		.D(ccff_head),
+		.Q(mem_out[0]),
+		.QN(mem_outb[0]));
+
+	DFF DFF_1_ (
+		.CK(prog_clk),
+		.D(mem_out[0]),
+		.Q(mem_out[1]),
+		.QN(mem_outb[1]));
+
+	DFF DFF_2_ (
+		.CK(prog_clk),
+		.D(mem_out[1]),
+		.Q(mem_out[2]),
+		.QN(mem_outb[2]));
+
+	DFF DFF_3_ (
+		.CK(prog_clk),
+		.D(mem_out[2]),
+		.Q(mem_out[3]),
+		.QN(mem_outb[3]));
+
+endmodule
+// ----- END Verilog module for mux_tree_tapbuf_size9_mem -----
 
 //----- Default net type -----
 `default_nettype wire
@@ -202,582 +574,6 @@ output [0:2] mem_outb;
 
 endmodule
 // ----- END Verilog module for mux_tree_tapbuf_size7_mem -----
-
-//----- Default net type -----
-`default_nettype wire
-
-
-
-
-//----- Default net type -----
-`default_nettype none
-
-// ----- Verilog module for mux_tree_tapbuf_size6_mem -----
-module mux_tree_tapbuf_size6_mem(prog_clk,
-                                 ccff_head,
-                                 ccff_tail,
-                                 mem_out,
-                                 mem_outb);
-//----- GLOBAL PORTS -----
-input [0:0] prog_clk;
-//----- INPUT PORTS -----
-input [0:0] ccff_head;
-//----- OUTPUT PORTS -----
-output [0:0] ccff_tail;
-//----- OUTPUT PORTS -----
-output [0:2] mem_out;
-//----- OUTPUT PORTS -----
-output [0:2] mem_outb;
-
-//----- BEGIN wire-connection ports -----
-//----- END wire-connection ports -----
-
-
-//----- BEGIN Registered ports -----
-//----- END Registered ports -----
-
-
-
-// ----- BEGIN Local short connections -----
-// ----- END Local short connections -----
-// ----- BEGIN Local output short connections -----
-	assign ccff_tail[0] = mem_out[2];
-// ----- END Local output short connections -----
-
-	DFF DFF_0_ (
-		.CK(prog_clk),
-		.D(ccff_head),
-		.Q(mem_out[0]),
-		.QN(mem_outb[0]));
-
-	DFF DFF_1_ (
-		.CK(prog_clk),
-		.D(mem_out[0]),
-		.Q(mem_out[1]),
-		.QN(mem_outb[1]));
-
-	DFF DFF_2_ (
-		.CK(prog_clk),
-		.D(mem_out[1]),
-		.Q(mem_out[2]),
-		.QN(mem_outb[2]));
-
-endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size6_mem -----
-
-//----- Default net type -----
-`default_nettype wire
-
-
-
-
-//----- Default net type -----
-`default_nettype none
-
-// ----- Verilog module for mux_tree_tapbuf_size3_mem -----
-module mux_tree_tapbuf_size3_mem(prog_clk,
-                                 ccff_head,
-                                 ccff_tail,
-                                 mem_out,
-                                 mem_outb);
-//----- GLOBAL PORTS -----
-input [0:0] prog_clk;
-//----- INPUT PORTS -----
-input [0:0] ccff_head;
-//----- OUTPUT PORTS -----
-output [0:0] ccff_tail;
-//----- OUTPUT PORTS -----
-output [0:1] mem_out;
-//----- OUTPUT PORTS -----
-output [0:1] mem_outb;
-
-//----- BEGIN wire-connection ports -----
-//----- END wire-connection ports -----
-
-
-//----- BEGIN Registered ports -----
-//----- END Registered ports -----
-
-
-
-// ----- BEGIN Local short connections -----
-// ----- END Local short connections -----
-// ----- BEGIN Local output short connections -----
-	assign ccff_tail[0] = mem_out[1];
-// ----- END Local output short connections -----
-
-	DFF DFF_0_ (
-		.CK(prog_clk),
-		.D(ccff_head),
-		.Q(mem_out[0]),
-		.QN(mem_outb[0]));
-
-	DFF DFF_1_ (
-		.CK(prog_clk),
-		.D(mem_out[0]),
-		.Q(mem_out[1]),
-		.QN(mem_outb[1]));
-
-endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size3_mem -----
-
-//----- Default net type -----
-`default_nettype wire
-
-
-
-
-//----- Default net type -----
-`default_nettype none
-
-// ----- Verilog module for mux_tree_tapbuf_size2_mem -----
-module mux_tree_tapbuf_size2_mem(prog_clk,
-                                 ccff_head,
-                                 ccff_tail,
-                                 mem_out,
-                                 mem_outb);
-//----- GLOBAL PORTS -----
-input [0:0] prog_clk;
-//----- INPUT PORTS -----
-input [0:0] ccff_head;
-//----- OUTPUT PORTS -----
-output [0:0] ccff_tail;
-//----- OUTPUT PORTS -----
-output [0:1] mem_out;
-//----- OUTPUT PORTS -----
-output [0:1] mem_outb;
-
-//----- BEGIN wire-connection ports -----
-//----- END wire-connection ports -----
-
-
-//----- BEGIN Registered ports -----
-//----- END Registered ports -----
-
-
-
-// ----- BEGIN Local short connections -----
-// ----- END Local short connections -----
-// ----- BEGIN Local output short connections -----
-	assign ccff_tail[0] = mem_out[1];
-// ----- END Local output short connections -----
-
-	DFF DFF_0_ (
-		.CK(prog_clk),
-		.D(ccff_head),
-		.Q(mem_out[0]),
-		.QN(mem_outb[0]));
-
-	DFF DFF_1_ (
-		.CK(prog_clk),
-		.D(mem_out[0]),
-		.Q(mem_out[1]),
-		.QN(mem_outb[1]));
-
-endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size2_mem -----
-
-//----- Default net type -----
-`default_nettype wire
-
-
-
-
-//----- Default net type -----
-`default_nettype none
-
-// ----- Verilog module for mux_tree_tapbuf_size5_mem -----
-module mux_tree_tapbuf_size5_mem(prog_clk,
-                                 ccff_head,
-                                 ccff_tail,
-                                 mem_out,
-                                 mem_outb);
-//----- GLOBAL PORTS -----
-input [0:0] prog_clk;
-//----- INPUT PORTS -----
-input [0:0] ccff_head;
-//----- OUTPUT PORTS -----
-output [0:0] ccff_tail;
-//----- OUTPUT PORTS -----
-output [0:2] mem_out;
-//----- OUTPUT PORTS -----
-output [0:2] mem_outb;
-
-//----- BEGIN wire-connection ports -----
-//----- END wire-connection ports -----
-
-
-//----- BEGIN Registered ports -----
-//----- END Registered ports -----
-
-
-
-// ----- BEGIN Local short connections -----
-// ----- END Local short connections -----
-// ----- BEGIN Local output short connections -----
-	assign ccff_tail[0] = mem_out[2];
-// ----- END Local output short connections -----
-
-	DFF DFF_0_ (
-		.CK(prog_clk),
-		.D(ccff_head),
-		.Q(mem_out[0]),
-		.QN(mem_outb[0]));
-
-	DFF DFF_1_ (
-		.CK(prog_clk),
-		.D(mem_out[0]),
-		.Q(mem_out[1]),
-		.QN(mem_outb[1]));
-
-	DFF DFF_2_ (
-		.CK(prog_clk),
-		.D(mem_out[1]),
-		.Q(mem_out[2]),
-		.QN(mem_outb[2]));
-
-endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size5_mem -----
-
-//----- Default net type -----
-`default_nettype wire
-
-
-
-
-//----- Default net type -----
-`default_nettype none
-
-// ----- Verilog module for mux_tree_tapbuf_size10_mem -----
-module mux_tree_tapbuf_size10_mem(prog_clk,
-                                  ccff_head,
-                                  ccff_tail,
-                                  mem_out,
-                                  mem_outb);
-//----- GLOBAL PORTS -----
-input [0:0] prog_clk;
-//----- INPUT PORTS -----
-input [0:0] ccff_head;
-//----- OUTPUT PORTS -----
-output [0:0] ccff_tail;
-//----- OUTPUT PORTS -----
-output [0:3] mem_out;
-//----- OUTPUT PORTS -----
-output [0:3] mem_outb;
-
-//----- BEGIN wire-connection ports -----
-//----- END wire-connection ports -----
-
-
-//----- BEGIN Registered ports -----
-//----- END Registered ports -----
-
-
-
-// ----- BEGIN Local short connections -----
-// ----- END Local short connections -----
-// ----- BEGIN Local output short connections -----
-	assign ccff_tail[0] = mem_out[3];
-// ----- END Local output short connections -----
-
-	DFF DFF_0_ (
-		.CK(prog_clk),
-		.D(ccff_head),
-		.Q(mem_out[0]),
-		.QN(mem_outb[0]));
-
-	DFF DFF_1_ (
-		.CK(prog_clk),
-		.D(mem_out[0]),
-		.Q(mem_out[1]),
-		.QN(mem_outb[1]));
-
-	DFF DFF_2_ (
-		.CK(prog_clk),
-		.D(mem_out[1]),
-		.Q(mem_out[2]),
-		.QN(mem_outb[2]));
-
-	DFF DFF_3_ (
-		.CK(prog_clk),
-		.D(mem_out[2]),
-		.Q(mem_out[3]),
-		.QN(mem_outb[3]));
-
-endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size10_mem -----
-
-//----- Default net type -----
-`default_nettype wire
-
-
-
-
-//----- Default net type -----
-`default_nettype none
-
-// ----- Verilog module for mux_tree_tapbuf_size11_mem -----
-module mux_tree_tapbuf_size11_mem(prog_clk,
-                                  ccff_head,
-                                  ccff_tail,
-                                  mem_out,
-                                  mem_outb);
-//----- GLOBAL PORTS -----
-input [0:0] prog_clk;
-//----- INPUT PORTS -----
-input [0:0] ccff_head;
-//----- OUTPUT PORTS -----
-output [0:0] ccff_tail;
-//----- OUTPUT PORTS -----
-output [0:3] mem_out;
-//----- OUTPUT PORTS -----
-output [0:3] mem_outb;
-
-//----- BEGIN wire-connection ports -----
-//----- END wire-connection ports -----
-
-
-//----- BEGIN Registered ports -----
-//----- END Registered ports -----
-
-
-
-// ----- BEGIN Local short connections -----
-// ----- END Local short connections -----
-// ----- BEGIN Local output short connections -----
-	assign ccff_tail[0] = mem_out[3];
-// ----- END Local output short connections -----
-
-	DFF DFF_0_ (
-		.CK(prog_clk),
-		.D(ccff_head),
-		.Q(mem_out[0]),
-		.QN(mem_outb[0]));
-
-	DFF DFF_1_ (
-		.CK(prog_clk),
-		.D(mem_out[0]),
-		.Q(mem_out[1]),
-		.QN(mem_outb[1]));
-
-	DFF DFF_2_ (
-		.CK(prog_clk),
-		.D(mem_out[1]),
-		.Q(mem_out[2]),
-		.QN(mem_outb[2]));
-
-	DFF DFF_3_ (
-		.CK(prog_clk),
-		.D(mem_out[2]),
-		.Q(mem_out[3]),
-		.QN(mem_outb[3]));
-
-endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size11_mem -----
-
-//----- Default net type -----
-`default_nettype wire
-
-
-
-
-//----- Default net type -----
-`default_nettype none
-
-// ----- Verilog module for mux_tree_tapbuf_size9_mem -----
-module mux_tree_tapbuf_size9_mem(prog_clk,
-                                 ccff_head,
-                                 ccff_tail,
-                                 mem_out,
-                                 mem_outb);
-//----- GLOBAL PORTS -----
-input [0:0] prog_clk;
-//----- INPUT PORTS -----
-input [0:0] ccff_head;
-//----- OUTPUT PORTS -----
-output [0:0] ccff_tail;
-//----- OUTPUT PORTS -----
-output [0:3] mem_out;
-//----- OUTPUT PORTS -----
-output [0:3] mem_outb;
-
-//----- BEGIN wire-connection ports -----
-//----- END wire-connection ports -----
-
-
-//----- BEGIN Registered ports -----
-//----- END Registered ports -----
-
-
-
-// ----- BEGIN Local short connections -----
-// ----- END Local short connections -----
-// ----- BEGIN Local output short connections -----
-	assign ccff_tail[0] = mem_out[3];
-// ----- END Local output short connections -----
-
-	DFF DFF_0_ (
-		.CK(prog_clk),
-		.D(ccff_head),
-		.Q(mem_out[0]),
-		.QN(mem_outb[0]));
-
-	DFF DFF_1_ (
-		.CK(prog_clk),
-		.D(mem_out[0]),
-		.Q(mem_out[1]),
-		.QN(mem_outb[1]));
-
-	DFF DFF_2_ (
-		.CK(prog_clk),
-		.D(mem_out[1]),
-		.Q(mem_out[2]),
-		.QN(mem_outb[2]));
-
-	DFF DFF_3_ (
-		.CK(prog_clk),
-		.D(mem_out[2]),
-		.Q(mem_out[3]),
-		.QN(mem_outb[3]));
-
-endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size9_mem -----
-
-//----- Default net type -----
-`default_nettype wire
-
-
-
-
-//----- Default net type -----
-`default_nettype none
-
-// ----- Verilog module for mux_tree_tapbuf_size8_mem -----
-module mux_tree_tapbuf_size8_mem(prog_clk,
-                                 ccff_head,
-                                 ccff_tail,
-                                 mem_out,
-                                 mem_outb);
-//----- GLOBAL PORTS -----
-input [0:0] prog_clk;
-//----- INPUT PORTS -----
-input [0:0] ccff_head;
-//----- OUTPUT PORTS -----
-output [0:0] ccff_tail;
-//----- OUTPUT PORTS -----
-output [0:3] mem_out;
-//----- OUTPUT PORTS -----
-output [0:3] mem_outb;
-
-//----- BEGIN wire-connection ports -----
-//----- END wire-connection ports -----
-
-
-//----- BEGIN Registered ports -----
-//----- END Registered ports -----
-
-
-
-// ----- BEGIN Local short connections -----
-// ----- END Local short connections -----
-// ----- BEGIN Local output short connections -----
-	assign ccff_tail[0] = mem_out[3];
-// ----- END Local output short connections -----
-
-	DFF DFF_0_ (
-		.CK(prog_clk),
-		.D(ccff_head),
-		.Q(mem_out[0]),
-		.QN(mem_outb[0]));
-
-	DFF DFF_1_ (
-		.CK(prog_clk),
-		.D(mem_out[0]),
-		.Q(mem_out[1]),
-		.QN(mem_outb[1]));
-
-	DFF DFF_2_ (
-		.CK(prog_clk),
-		.D(mem_out[1]),
-		.Q(mem_out[2]),
-		.QN(mem_outb[2]));
-
-	DFF DFF_3_ (
-		.CK(prog_clk),
-		.D(mem_out[2]),
-		.Q(mem_out[3]),
-		.QN(mem_outb[3]));
-
-endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size8_mem -----
-
-//----- Default net type -----
-`default_nettype wire
-
-
-
-
-//----- Default net type -----
-`default_nettype none
-
-// ----- Verilog module for mux_tree_tapbuf_size15_mem -----
-module mux_tree_tapbuf_size15_mem(prog_clk,
-                                  ccff_head,
-                                  ccff_tail,
-                                  mem_out,
-                                  mem_outb);
-//----- GLOBAL PORTS -----
-input [0:0] prog_clk;
-//----- INPUT PORTS -----
-input [0:0] ccff_head;
-//----- OUTPUT PORTS -----
-output [0:0] ccff_tail;
-//----- OUTPUT PORTS -----
-output [0:3] mem_out;
-//----- OUTPUT PORTS -----
-output [0:3] mem_outb;
-
-//----- BEGIN wire-connection ports -----
-//----- END wire-connection ports -----
-
-
-//----- BEGIN Registered ports -----
-//----- END Registered ports -----
-
-
-
-// ----- BEGIN Local short connections -----
-// ----- END Local short connections -----
-// ----- BEGIN Local output short connections -----
-	assign ccff_tail[0] = mem_out[3];
-// ----- END Local output short connections -----
-
-	DFF DFF_0_ (
-		.CK(prog_clk),
-		.D(ccff_head),
-		.Q(mem_out[0]),
-		.QN(mem_outb[0]));
-
-	DFF DFF_1_ (
-		.CK(prog_clk),
-		.D(mem_out[0]),
-		.Q(mem_out[1]),
-		.QN(mem_outb[1]));
-
-	DFF DFF_2_ (
-		.CK(prog_clk),
-		.D(mem_out[1]),
-		.Q(mem_out[2]),
-		.QN(mem_outb[2]));
-
-	DFF DFF_3_ (
-		.CK(prog_clk),
-		.D(mem_out[2]),
-		.Q(mem_out[3]),
-		.QN(mem_outb[3]));
-
-endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size15_mem -----
 
 //----- Default net type -----
 `default_nettype wire
@@ -924,8 +720,8 @@ endmodule
 //----- Default net type -----
 `default_nettype none
 
-// ----- Verilog module for mux_tree_tapbuf_size21_mem -----
-module mux_tree_tapbuf_size21_mem(prog_clk,
+// ----- Verilog module for mux_tree_tapbuf_size15_mem -----
+module mux_tree_tapbuf_size15_mem(prog_clk,
                                   ccff_head,
                                   ccff_tail,
                                   mem_out,
@@ -937,9 +733,9 @@ input [0:0] ccff_head;
 //----- OUTPUT PORTS -----
 output [0:0] ccff_tail;
 //----- OUTPUT PORTS -----
-output [0:4] mem_out;
+output [0:3] mem_out;
 //----- OUTPUT PORTS -----
-output [0:4] mem_outb;
+output [0:3] mem_outb;
 
 //----- BEGIN wire-connection ports -----
 //----- END wire-connection ports -----
@@ -953,7 +749,7 @@ output [0:4] mem_outb;
 // ----- BEGIN Local short connections -----
 // ----- END Local short connections -----
 // ----- BEGIN Local output short connections -----
-	assign ccff_tail[0] = mem_out[4];
+	assign ccff_tail[0] = mem_out[3];
 // ----- END Local output short connections -----
 
 	DFF DFF_0_ (
@@ -980,14 +776,8 @@ output [0:4] mem_outb;
 		.Q(mem_out[3]),
 		.QN(mem_outb[3]));
 
-	DFF DFF_4_ (
-		.CK(prog_clk),
-		.D(mem_out[3]),
-		.Q(mem_out[4]),
-		.QN(mem_outb[4]));
-
 endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size21_mem -----
+// ----- END Verilog module for mux_tree_tapbuf_size15_mem -----
 
 //----- Default net type -----
 `default_nettype wire
@@ -998,8 +788,8 @@ endmodule
 //----- Default net type -----
 `default_nettype none
 
-// ----- Verilog module for mux_tree_tapbuf_size22_mem -----
-module mux_tree_tapbuf_size22_mem(prog_clk,
+// ----- Verilog module for mux_tree_tapbuf_size10_mem -----
+module mux_tree_tapbuf_size10_mem(prog_clk,
                                   ccff_head,
                                   ccff_tail,
                                   mem_out,
@@ -1011,9 +801,9 @@ input [0:0] ccff_head;
 //----- OUTPUT PORTS -----
 output [0:0] ccff_tail;
 //----- OUTPUT PORTS -----
-output [0:4] mem_out;
+output [0:3] mem_out;
 //----- OUTPUT PORTS -----
-output [0:4] mem_outb;
+output [0:3] mem_outb;
 
 //----- BEGIN wire-connection ports -----
 //----- END wire-connection ports -----
@@ -1027,7 +817,7 @@ output [0:4] mem_outb;
 // ----- BEGIN Local short connections -----
 // ----- END Local short connections -----
 // ----- BEGIN Local output short connections -----
-	assign ccff_tail[0] = mem_out[4];
+	assign ccff_tail[0] = mem_out[3];
 // ----- END Local output short connections -----
 
 	DFF DFF_0_ (
@@ -1054,236 +844,8 @@ output [0:4] mem_outb;
 		.Q(mem_out[3]),
 		.QN(mem_outb[3]));
 
-	DFF DFF_4_ (
-		.CK(prog_clk),
-		.D(mem_out[3]),
-		.Q(mem_out[4]),
-		.QN(mem_outb[4]));
-
 endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size22_mem -----
-
-//----- Default net type -----
-`default_nettype wire
-
-
-
-
-//----- Default net type -----
-`default_nettype none
-
-// ----- Verilog module for mux_tree_tapbuf_size20_mem -----
-module mux_tree_tapbuf_size20_mem(prog_clk,
-                                  ccff_head,
-                                  ccff_tail,
-                                  mem_out,
-                                  mem_outb);
-//----- GLOBAL PORTS -----
-input [0:0] prog_clk;
-//----- INPUT PORTS -----
-input [0:0] ccff_head;
-//----- OUTPUT PORTS -----
-output [0:0] ccff_tail;
-//----- OUTPUT PORTS -----
-output [0:4] mem_out;
-//----- OUTPUT PORTS -----
-output [0:4] mem_outb;
-
-//----- BEGIN wire-connection ports -----
-//----- END wire-connection ports -----
-
-
-//----- BEGIN Registered ports -----
-//----- END Registered ports -----
-
-
-
-// ----- BEGIN Local short connections -----
-// ----- END Local short connections -----
-// ----- BEGIN Local output short connections -----
-	assign ccff_tail[0] = mem_out[4];
-// ----- END Local output short connections -----
-
-	DFF DFF_0_ (
-		.CK(prog_clk),
-		.D(ccff_head),
-		.Q(mem_out[0]),
-		.QN(mem_outb[0]));
-
-	DFF DFF_1_ (
-		.CK(prog_clk),
-		.D(mem_out[0]),
-		.Q(mem_out[1]),
-		.QN(mem_outb[1]));
-
-	DFF DFF_2_ (
-		.CK(prog_clk),
-		.D(mem_out[1]),
-		.Q(mem_out[2]),
-		.QN(mem_outb[2]));
-
-	DFF DFF_3_ (
-		.CK(prog_clk),
-		.D(mem_out[2]),
-		.Q(mem_out[3]),
-		.QN(mem_outb[3]));
-
-	DFF DFF_4_ (
-		.CK(prog_clk),
-		.D(mem_out[3]),
-		.Q(mem_out[4]),
-		.QN(mem_outb[4]));
-
-endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size20_mem -----
-
-//----- Default net type -----
-`default_nettype wire
-
-
-
-
-//----- Default net type -----
-`default_nettype none
-
-// ----- Verilog module for mux_tree_tapbuf_size19_mem -----
-module mux_tree_tapbuf_size19_mem(prog_clk,
-                                  ccff_head,
-                                  ccff_tail,
-                                  mem_out,
-                                  mem_outb);
-//----- GLOBAL PORTS -----
-input [0:0] prog_clk;
-//----- INPUT PORTS -----
-input [0:0] ccff_head;
-//----- OUTPUT PORTS -----
-output [0:0] ccff_tail;
-//----- OUTPUT PORTS -----
-output [0:4] mem_out;
-//----- OUTPUT PORTS -----
-output [0:4] mem_outb;
-
-//----- BEGIN wire-connection ports -----
-//----- END wire-connection ports -----
-
-
-//----- BEGIN Registered ports -----
-//----- END Registered ports -----
-
-
-
-// ----- BEGIN Local short connections -----
-// ----- END Local short connections -----
-// ----- BEGIN Local output short connections -----
-	assign ccff_tail[0] = mem_out[4];
-// ----- END Local output short connections -----
-
-	DFF DFF_0_ (
-		.CK(prog_clk),
-		.D(ccff_head),
-		.Q(mem_out[0]),
-		.QN(mem_outb[0]));
-
-	DFF DFF_1_ (
-		.CK(prog_clk),
-		.D(mem_out[0]),
-		.Q(mem_out[1]),
-		.QN(mem_outb[1]));
-
-	DFF DFF_2_ (
-		.CK(prog_clk),
-		.D(mem_out[1]),
-		.Q(mem_out[2]),
-		.QN(mem_outb[2]));
-
-	DFF DFF_3_ (
-		.CK(prog_clk),
-		.D(mem_out[2]),
-		.Q(mem_out[3]),
-		.QN(mem_outb[3]));
-
-	DFF DFF_4_ (
-		.CK(prog_clk),
-		.D(mem_out[3]),
-		.Q(mem_out[4]),
-		.QN(mem_outb[4]));
-
-endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size19_mem -----
-
-//----- Default net type -----
-`default_nettype wire
-
-
-
-
-//----- Default net type -----
-`default_nettype none
-
-// ----- Verilog module for mux_tree_tapbuf_size16_mem -----
-module mux_tree_tapbuf_size16_mem(prog_clk,
-                                  ccff_head,
-                                  ccff_tail,
-                                  mem_out,
-                                  mem_outb);
-//----- GLOBAL PORTS -----
-input [0:0] prog_clk;
-//----- INPUT PORTS -----
-input [0:0] ccff_head;
-//----- OUTPUT PORTS -----
-output [0:0] ccff_tail;
-//----- OUTPUT PORTS -----
-output [0:4] mem_out;
-//----- OUTPUT PORTS -----
-output [0:4] mem_outb;
-
-//----- BEGIN wire-connection ports -----
-//----- END wire-connection ports -----
-
-
-//----- BEGIN Registered ports -----
-//----- END Registered ports -----
-
-
-
-// ----- BEGIN Local short connections -----
-// ----- END Local short connections -----
-// ----- BEGIN Local output short connections -----
-	assign ccff_tail[0] = mem_out[4];
-// ----- END Local output short connections -----
-
-	DFF DFF_0_ (
-		.CK(prog_clk),
-		.D(ccff_head),
-		.Q(mem_out[0]),
-		.QN(mem_outb[0]));
-
-	DFF DFF_1_ (
-		.CK(prog_clk),
-		.D(mem_out[0]),
-		.Q(mem_out[1]),
-		.QN(mem_outb[1]));
-
-	DFF DFF_2_ (
-		.CK(prog_clk),
-		.D(mem_out[1]),
-		.Q(mem_out[2]),
-		.QN(mem_outb[2]));
-
-	DFF DFF_3_ (
-		.CK(prog_clk),
-		.D(mem_out[2]),
-		.Q(mem_out[3]),
-		.QN(mem_outb[3]));
-
-	DFF DFF_4_ (
-		.CK(prog_clk),
-		.D(mem_out[3]),
-		.Q(mem_out[4]),
-		.QN(mem_outb[4]));
-
-endmodule
-// ----- END Verilog module for mux_tree_tapbuf_size16_mem -----
+// ----- END Verilog module for mux_tree_tapbuf_size10_mem -----
 
 //----- Default net type -----
 `default_nettype wire

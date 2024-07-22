@@ -3,7 +3,7 @@
 //	Description: FPGA Verilog Testbench for Formal Top-level netlist of Design: noc
 //	Author: Xifan TANG
 //	Organization: University of Utah
-//	Date: Sat Jul 20 12:17:24 2024
+//	Date: Sun Jul 21 19:29:51 2024
 //-------------------------------------------
 //----- Default net type -----
 `default_nettype none
@@ -1718,7 +1718,6 @@ module noc_top_formal_verification_random_tb;
 		n8_idata_p0_34_,
 		n8_ivalid_p0,
 		n8_ivch_p0,
-		clk,
 		rst_,
 		n0_ordy_p0_0__gfpga,
 		n0_ordy_p0_1__gfpga,
@@ -2400,7 +2399,6 @@ module noc_top_formal_verification_random_tb;
 		n8_idata_p0_34_,
 		n8_ivalid_p0,
 		n8_ivch_p0,
-		clk,
 		rst_,
 		n0_ordy_p0_0__bench,
 		n0_ordy_p0_1__bench,

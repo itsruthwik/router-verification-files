@@ -3,7 +3,7 @@
 //	Description: Template for user-defined Verilog modules
 //	Author: Xifan TANG
 //	Organization: University of Utah
-//	Date: Sat Jul 20 12:17:04 2024
+//	Date: Sun Jul 21 19:29:39 2024
 //-------------------------------------------
 // ----- Template Verilog module for DFFSRQ -----
 //----- Default net type -----
@@ -122,182 +122,182 @@ endmodule
 
 // ----- Verilog module for router_wrap -----
 module router_wrap(clk,
-                   rst_,
-                   my_xpos,
-                   my_ypos,
-                   idata_0,
-                   idata_1,
-                   idata_2,
-                   idata_3,
-                   idata_4,
-                   ivalid_0,
-                   ivalid_1,
-                   ivalid_2,
-                   ivalid_3,
-                   ivalid_4,
-                   ivch_0,
-                   ivch_1,
-                   ivch_2,
-                   ivch_3,
-                   ivch_4,
-                   iack_0,
-                   iack_1,
-                   iack_2,
-                   iack_3,
-                   iack_4,
-                   ilck_0,
-                   ilck_1,
-                   ilck_2,
-                   ilck_3,
-                   ilck_4,
-                   odata_0,
-                   odata_1,
-                   odata_2,
-                   odata_3,
-                   odata_4,
-                   ovalid_0,
-                   ovalid_1,
-                   ovalid_2,
-                   ovalid_3,
-                   ovalid_4,
-                   ovch_0,
-                   ovch_1,
-                   ovch_2,
-                   ovch_3,
-                   ovch_4,
-                   oack_0,
-                   oack_1,
-                   oack_2,
-                   oack_3,
-                   oack_4,
-                   ordy_0,
-                   ordy_1,
-                   ordy_2,
-                   ordy_3,
-                   ordy_4,
-                   olck_0,
-                   olck_1,
-                   olck_2,
-                   olck_3,
-                   olck_4);
+                   RST_,
+                   MY_XPOS,
+                   MY_YPOS,
+                   IDATA_0,
+                   IDATA_1,
+                   IDATA_2,
+                   IDATA_3,
+                   IDATA_4,
+                   IVALID_0,
+                   IVALID_1,
+                   IVALID_2,
+                   IVALID_3,
+                   IVALID_4,
+                   IVCH_0,
+                   IVCH_1,
+                   IVCH_2,
+                   IVCH_3,
+                   IVCH_4,
+                   IACK_0,
+                   IACK_1,
+                   IACK_2,
+                   IACK_3,
+                   IACK_4,
+                   ILCK_0,
+                   ILCK_1,
+                   ILCK_2,
+                   ILCK_3,
+                   ILCK_4,
+                   ODATA_0,
+                   ODATA_1,
+                   ODATA_2,
+                   ODATA_3,
+                   ODATA_4,
+                   OVALID_0,
+                   OVALID_1,
+                   OVALID_2,
+                   OVALID_3,
+                   OVALID_4,
+                   OVCH_0,
+                   OVCH_1,
+                   OVCH_2,
+                   OVCH_3,
+                   OVCH_4,
+                   OACK_0,
+                   OACK_1,
+                   OACK_2,
+                   OACK_3,
+                   OACK_4,
+                   ORDY_0,
+                   ORDY_1,
+                   ORDY_2,
+                   ORDY_3,
+                   ORDY_4,
+                   OLCK_0,
+                   OLCK_1,
+                   OLCK_2,
+                   OLCK_3,
+                   OLCK_4);
 //----- GLOBAL PORTS -----
 input [0:0] clk;
 //----- INPUT PORTS -----
-input [0:0] rst_;
+input [0:0] RST_;
 //----- INPUT PORTS -----
-input [0:1] my_xpos;
+input [0:1] MY_XPOS;
 //----- INPUT PORTS -----
-input [0:1] my_ypos;
+input [0:1] MY_YPOS;
 //----- INPUT PORTS -----
-input [0:34] idata_0;
+input [0:34] IDATA_0;
 //----- INPUT PORTS -----
-input [0:34] idata_1;
+input [0:34] IDATA_1;
 //----- INPUT PORTS -----
-input [0:34] idata_2;
+input [0:34] IDATA_2;
 //----- INPUT PORTS -----
-input [0:34] idata_3;
+input [0:34] IDATA_3;
 //----- INPUT PORTS -----
-input [0:34] idata_4;
+input [0:34] IDATA_4;
 //----- INPUT PORTS -----
-input [0:0] ivalid_0;
+input [0:0] IVALID_0;
 //----- INPUT PORTS -----
-input [0:0] ivalid_1;
+input [0:0] IVALID_1;
 //----- INPUT PORTS -----
-input [0:0] ivalid_2;
+input [0:0] IVALID_2;
 //----- INPUT PORTS -----
-input [0:0] ivalid_3;
+input [0:0] IVALID_3;
 //----- INPUT PORTS -----
-input [0:0] ivalid_4;
+input [0:0] IVALID_4;
 //----- INPUT PORTS -----
-input [0:0] ivch_0;
+input [0:0] IVCH_0;
 //----- INPUT PORTS -----
-input [0:0] ivch_1;
+input [0:0] IVCH_1;
 //----- INPUT PORTS -----
-input [0:0] ivch_2;
+input [0:0] IVCH_2;
 //----- INPUT PORTS -----
-input [0:0] ivch_3;
+input [0:0] IVCH_3;
 //----- INPUT PORTS -----
-input [0:0] ivch_4;
+input [0:0] IVCH_4;
 //----- INPUT PORTS -----
-input [0:1] iack_0;
+input [0:1] IACK_0;
 //----- INPUT PORTS -----
-input [0:1] iack_1;
+input [0:1] IACK_1;
 //----- INPUT PORTS -----
-input [0:1] iack_2;
+input [0:1] IACK_2;
 //----- INPUT PORTS -----
-input [0:1] iack_3;
+input [0:1] IACK_3;
 //----- INPUT PORTS -----
-input [0:1] iack_4;
+input [0:1] IACK_4;
 //----- INPUT PORTS -----
-input [0:1] ilck_0;
+input [0:1] ILCK_0;
 //----- INPUT PORTS -----
-input [0:1] ilck_1;
+input [0:1] ILCK_1;
 //----- INPUT PORTS -----
-input [0:1] ilck_2;
+input [0:1] ILCK_2;
 //----- INPUT PORTS -----
-input [0:1] ilck_3;
+input [0:1] ILCK_3;
 //----- INPUT PORTS -----
-input [0:1] ilck_4;
+input [0:1] ILCK_4;
 //----- OUTPUT PORTS -----
-output [0:34] odata_0;
+output [0:34] ODATA_0;
 //----- OUTPUT PORTS -----
-output [0:34] odata_1;
+output [0:34] ODATA_1;
 //----- OUTPUT PORTS -----
-output [0:34] odata_2;
+output [0:34] ODATA_2;
 //----- OUTPUT PORTS -----
-output [0:34] odata_3;
+output [0:34] ODATA_3;
 //----- OUTPUT PORTS -----
-output [0:34] odata_4;
+output [0:34] ODATA_4;
 //----- OUTPUT PORTS -----
-output [0:0] ovalid_0;
+output [0:0] OVALID_0;
 //----- OUTPUT PORTS -----
-output [0:0] ovalid_1;
+output [0:0] OVALID_1;
 //----- OUTPUT PORTS -----
-output [0:0] ovalid_2;
+output [0:0] OVALID_2;
 //----- OUTPUT PORTS -----
-output [0:0] ovalid_3;
+output [0:0] OVALID_3;
 //----- OUTPUT PORTS -----
-output [0:0] ovalid_4;
+output [0:0] OVALID_4;
 //----- OUTPUT PORTS -----
-output [0:0] ovch_0;
+output [0:0] OVCH_0;
 //----- OUTPUT PORTS -----
-output [0:0] ovch_1;
+output [0:0] OVCH_1;
 //----- OUTPUT PORTS -----
-output [0:0] ovch_2;
+output [0:0] OVCH_2;
 //----- OUTPUT PORTS -----
-output [0:0] ovch_3;
+output [0:0] OVCH_3;
 //----- OUTPUT PORTS -----
-output [0:0] ovch_4;
+output [0:0] OVCH_4;
 //----- OUTPUT PORTS -----
-output [0:1] oack_0;
+output [0:1] OACK_0;
 //----- OUTPUT PORTS -----
-output [0:1] oack_1;
+output [0:1] OACK_1;
 //----- OUTPUT PORTS -----
-output [0:1] oack_2;
+output [0:1] OACK_2;
 //----- OUTPUT PORTS -----
-output [0:1] oack_3;
+output [0:1] OACK_3;
 //----- OUTPUT PORTS -----
-output [0:1] oack_4;
+output [0:1] OACK_4;
 //----- OUTPUT PORTS -----
-output [0:1] ordy_0;
+output [0:1] ORDY_0;
 //----- OUTPUT PORTS -----
-output [0:1] ordy_1;
+output [0:1] ORDY_1;
 //----- OUTPUT PORTS -----
-output [0:1] ordy_2;
+output [0:1] ORDY_2;
 //----- OUTPUT PORTS -----
-output [0:1] ordy_3;
+output [0:1] ORDY_3;
 //----- OUTPUT PORTS -----
-output [0:1] ordy_4;
+output [0:1] ORDY_4;
 //----- OUTPUT PORTS -----
-output [0:1] olck_0;
+output [0:1] OLCK_0;
 //----- OUTPUT PORTS -----
-output [0:1] olck_1;
+output [0:1] OLCK_1;
 //----- OUTPUT PORTS -----
-output [0:1] olck_2;
+output [0:1] OLCK_2;
 //----- OUTPUT PORTS -----
-output [0:1] olck_3;
+output [0:1] OLCK_3;
 //----- OUTPUT PORTS -----
-output [0:1] olck_4;
+output [0:1] OLCK_4;
 
 //----- BEGIN wire-connection ports -----
 //----- END wire-connection ports -----
