@@ -3,7 +3,7 @@
 //	Description: Fabric Netlist Summary
 //	Author: Xifan TANG
 //	Organization: University of Utah
-//	Date: Mon Jul 29 12:21:19 2024
+//	Date: Mon Jul 29 18:14:42 2024
 //-------------------------------------------
 // ------ Include defines: preproc flags -----
 `include "./SRC/fpga_defines.v"

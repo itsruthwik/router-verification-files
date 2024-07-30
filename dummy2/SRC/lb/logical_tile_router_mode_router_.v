@@ -3,7 +3,7 @@
 //	Description: Verilog modules for pb_type: router
 //	Author: Xifan TANG
 //	Organization: University of Utah
-//	Date: Mon Jul 29 12:21:18 2024
+//	Date: Mon Jul 29 18:14:41 2024
 //-------------------------------------------
 // ----- BEGIN Physical programmable logic block Verilog module: router -----
 //----- Default net type -----

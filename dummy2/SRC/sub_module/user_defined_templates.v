@@ -3,7 +3,7 @@
 //	Description: Template for user-defined Verilog modules
 //	Author: Xifan TANG
 //	Organization: University of Utah
-//	Date: Mon Jul 29 12:21:18 2024
+//	Date: Mon Jul 29 18:14:41 2024
 //-------------------------------------------
 // ----- Template Verilog module for DFFSRQ -----
 //----- Default net type -----
