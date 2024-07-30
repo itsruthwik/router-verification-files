@@ -11,8 +11,11 @@
 // ------ Include fabric top-level netlists -----
 `include "./SRC/fabric_netlists.v"
 
-`include "router_bench_output_verilog.v"
+// `include "router_bench_output_verilog.v"
+`include "./../../common-files/router_bench.v"
+`include "./../../common-files/dummy_router3-rtl.v"
+
 
 `include "./SRC/router_bench_top_formal_verification.v"
-`include "./SRC/router_bench_formal_random_top_tb.v"
-// `include "./../dummy-run01/SRC/top_tb.v"
+// `include "./SRC/router_bench_formal_random_top_tb.v"
+`include "./../dummy-run01/SRC/top_tb.v"
