@@ -9,9 +9,9 @@
 `include "./SRC/fpga_defines.v"
 
 // ------ Include user-defined netlists -----
-`include "/home/rsunketa/OpenFPGA/openfpga_flow/openfpga_cell_library/verilog/dff.v"
-`include "/home/rsunketa/OpenFPGA/openfpga_flow/openfpga_cell_library/verilog/gpio.v"
-`include "/home/rsunketa/OpenFPGA/test_runs/router_noc/verilog-files/dummy_router_wrap.v"
+`include "./../../common-files/dff.v"
+`include "./../../common-files/gpio.v"
+`include "./../../common-files/dummy_router_wrap.v"
 // ------ Include primitive module netlists -----
 `include "./SRC/sub_module/inv_buf_passgate.v"
 `include "./SRC/sub_module/arch_encoder.v"
