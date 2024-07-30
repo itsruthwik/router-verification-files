@@ -1,5 +1,7 @@
 (* whitebox *)
-`include "/home/rsunketa/OpenFPGA/test_runs/nocgen/src/define.h"
+// `include "/home/rsunketa/OpenFPGA/test_runs/nocgen/src/define.h"
+`include "/mnt/vault1/rsunketa/router-verification-files/nocgen_router/common-files/src/define.h" 
+
 module router2 ( 
         IDATA_0,  
         IVALID_0, 
