@@ -12,6 +12,8 @@
 `include "./SRC/fabric_netlists.v"
 
 // `include "router_bench_output_verilog.v"
+`include "./../../common-files/router_bench.v"
+`include "./../../common-files/dummy_router3.v"
 
 
 `include "./SRC/router_bench_top_formal_verification.v"
